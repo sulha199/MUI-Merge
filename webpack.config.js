@@ -19,6 +19,9 @@ const config = {
       },
     ],
   },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js', '.jsx'],
+  },
   devServer: {
     static: {
       directory: './dist',

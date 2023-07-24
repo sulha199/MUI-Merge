@@ -30,7 +30,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "parcel build",
     "start": "webpack serve --mode development",
     "uxpin": "npx uxpin-merge --disable-tunneling",
     "eslint": "npx eslint src/",
@@ -38,11 +38,12 @@
     "prettier:write": "npx prettier src/ --write ."
   },
   "devDependencies": {
-    "@uxpin/merge-cli": "^3.0.3",
+    "@uxpin/merge-cli": "^3.0.4",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
+    "parcel": "^2.9.3",
     "prettier": "^2.8.3"
   }
 }
